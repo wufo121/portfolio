@@ -1,0 +1,73 @@
+
+
+.Header {
+    display: flex;
+    background-color: black;
+    height: 4.5em;
+    flex-direction: row;
+
+    .partLeftNavigation{
+        position: relative;
+        width:15%;
+        
+    }
+}
+
+.LinkHome {
+    
+    border-radius: 50%;
+    height: 5em;
+     
+    .HomePicture{
+        position: absolute;
+        top: 22%;
+        left:25%;
+        height: 2em;
+        background-color: white;
+        border-radius: 50%;
+        padding: 5px; 
+    } 
+}
+
+
+.PartRightNavigation {
+    display: flex;
+    align-items: center;
+    width: 85%;
+    justify-content: flex-end;
+    
+    ul{
+        width: 100%;
+        margin: 0;
+        display: flex;
+        flex-direction: row;
+        list-style: none;
+        align-items: center;
+        
+
+        li{
+            
+            a {
+        color: white;
+        text-decoration: none;
+        padding:25px 2em ;
+        font-weight: 500;
+        
+
+        &:hover{
+           /* border-left: 3px solid white;*/
+           /* border-bottom: 3px solid grey;*/
+           background-color: white;
+           color: black;
+        }
+            }
+
+        .githubLogo{
+            height: 2em;
+            background-color: white;
+            border-radius: 50%;
+        }
+        }
+    }
+}
+
