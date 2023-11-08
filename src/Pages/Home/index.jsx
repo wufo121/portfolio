@@ -1,5 +1,7 @@
 import './Home.scss'
 import Espace from "../../Assets/starry-sky.webp"
+import CardActivity from '../../Components/CardActivity'
+import { faDesktop } from '@fortawesome/free-solid-svg-icons';
 
 
 function Home () {
@@ -7,10 +9,23 @@ function Home () {
         <div className="mainPage">
             <section className="BannièreHome">
                 <img src={Espace} alt="espace"></img>
-                <div className='square'>
-                    <h1>LEGER<br></br> ANTOINE</h1>
-                    <h2>Développeur Front-end.</h2>
-                    <p>Développeur de 21 ans,<br></br> passioné par le développement web</p>
+                <div className='ApparitionLettre'>
+                    <ul className='nom'>
+                        <li className='lettre'>L</li>
+                        <li className='lettre'>E</li>
+                        <li className='lettre'>G</li>
+                        <li className='lettre'>E</li>
+                        <li className='lettre'>R</li>
+                        </ul>
+                        <ul className='prenom'>
+                        <li className='lettre'>A</li>
+                        <li className='lettre'>N</li>
+                        <li className='lettre'>T</li>
+                        <li className='lettre'>O</li>
+                        <li className='lettre'>I</li>
+                        <li className='lettre'>N</li>
+                        <li className='lettre'>E</li>
+                    </ul>
                 </div>
             </section>
             <section id="Présentation">
@@ -24,6 +39,42 @@ function Home () {
             </section>
             <section id="Activité">
                 <h2>Activités</h2>
+                <div className='CardActivitySection'>
+                    <div className='row'>
+                        <CardActivity
+                            iconCardActivity={faDesktop}
+                            titleCardActivity="Multi-plateforme"
+                            paragraphCardActivity="Compatible tous supports, tablette & application mobile"
+                        />
+                        <CardActivity
+                            iconCardActivity={faDesktop}
+                            titleCardActivity="Multi-plateforme"
+                            paragraphCardActivity="Compatible tous supports, tablette & application mobile"
+                        />
+                        <CardActivity
+                            iconCardActivity={faDesktop}
+                            titleCardActivity="Multi-plateforme"
+                            paragraphCardActivity="Compatible tous supports, tablette & application mobile"
+                        />
+                    </div>
+                    <div className='row'>
+                        <CardActivity
+                            iconCardActivity={faDesktop}
+                            titleCardActivity="Multi-plateforme"
+                            paragraphCardActivity="Compatible tous supports, tablette & application mobile"
+                        />
+                        <CardActivity
+                            iconCardActivity={faDesktop}
+                            titleCardActivity="Multi-plateforme"
+                            paragraphCardActivity="Compatible tous supports, tablette & application mobile"
+                        />
+                        <CardActivity
+                            iconCardActivity={faDesktop}
+                            titleCardActivity="Multi-plateforme"
+                            paragraphCardActivity="Compatible tous supports, tablette & application mobile"
+                        />
+                    </div>
+                </div>
             </section>
             <section id="Réalisation">
                 <h2>Réalisations</h2>
