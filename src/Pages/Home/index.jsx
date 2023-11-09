@@ -1,7 +1,10 @@
 import './Home.scss'
 import Espace from "../../Assets/starry-sky.webp"
 import CardActivity from '../../Components/CardActivity'
+import CardRealisation from '../../Components/CardRealisation';
 import { faDesktop } from '@fortawesome/free-solid-svg-icons';
+import Projet11 from '../../Assets/ArgentBank.webp';
+
 
 
 function Home () {
@@ -78,6 +81,11 @@ function Home () {
             </section>
             <section id="Réalisation">
                 <h2>Réalisations</h2>
+                <CardRealisation
+                RealisationImage={Projet11}
+                nomRealisation="Argent Bank"
+                courteDescriptionRealisation="Gérer les States avec React-Redux"
+                />
             </section>
             <section id="Compétence">
                 <h2>Compétences</h2>

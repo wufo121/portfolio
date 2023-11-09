@@ -3,6 +3,13 @@
 }
 
 
+
+$darkBlue:#1B1A3B;
+$darkPurple: #262855;
+$pastelPurple:#676EA5;
+$darkPink:#6E6998;
+
+
 @keyframes apparition {
   0% {
     transform: translate3d(-50%, -50%, -500px) scale(0);
@@ -109,7 +116,7 @@
 
 
   #Présentation{
-    background-color:  rgb(38, 40, 85);
+    background-color:  $darkPurple;
     padding-bottom: 10em;
     
 
@@ -119,7 +126,7 @@
       left: 35%;
       top:-1.5em;
       width: 25%;
-      background-color: rgb(27, 26, 59) ;
+      background-color: $darkBlue ;
       padding: 1em;
       font-size: 3em;
       display: flex;
@@ -145,7 +152,7 @@
 
 
   #Activité{
-    background-color:rgb( 110, 105, 152);
+    background-color:$darkPink;
    
      
     h2{
@@ -154,7 +161,7 @@
       left: 35%;
       top:-1.5em;
       width: 25%;
-      background-color: rgb(103, 110, 165);
+      background-color: $pastelPurple;
       padding: 1em;
       font-size: 3em;
       display: flex;
@@ -166,7 +173,7 @@
     .CardActivitySection {
       position: relative;
       left: 25%;
-      width: 100%;
+      width: 50%;
       display: flex;
       flex-direction: column;
       gap: 2em;
@@ -177,7 +184,88 @@
         flex-direction: row;
         gap: 2em;
       }
+   }
+}
+
+
+#Réalisation{
+
+  background-color:$darkPurple ;
+  padding-bottom: 10em;
+
+  h2{
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+      position: relative;
+      left: 35%;
+      top:-1.5em;
+      width: 25%;
+      background-color: $darkBlue;
+      padding: 1em;
+      font-size: 3em;
+      display: flex;
+      justify-content: center;
+      color:white;
+      font-weight: 900;
   }
 }
 
+
+#Compétence{
+
+  background-color:$darkPink ;
+
+  h2{
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+      position: relative;
+      left: 35%;
+      top:-1.5em;
+      width: 25%;
+      background-color: $pastelPurple;
+      padding: 1em;
+      font-size: 3em;
+      display: flex;
+      justify-content: center;
+      color:white;
+      font-weight: 900;
+  }
+}
+
+#Formations{
+
+  background-color:$darkPurple ;
+
+  h2{
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+      position: relative;
+      left: 35%;
+      top:-1.5em;
+      width: 25%;
+      background-color: $darkBlue;
+      padding: 1em;
+      font-size: 3em;
+      display: flex;
+      justify-content: center;
+      color:white;
+      font-weight: 900;
+  }
+}
+#Contact{
+
+  background-color:$darkPink ;
+
+  h2{
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+      position: relative;
+      left: 35%;
+      top:-1.5em;
+      width: 25%;
+      background-color: $pastelPurple;
+      padding: 1em;
+      font-size: 3em;
+      display: flex;
+      justify-content: center;
+      color:white;
+      font-weight: 900;
+  }
+}
   
