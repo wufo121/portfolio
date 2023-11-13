@@ -1,7 +1,11 @@
 *{
     margin: 0;
 }
-
+.row{
+  display: flex;
+  flex-direction: row;
+  gap: 2em;
+}
 
 
 $darkBlue:#1B1A3B;
@@ -179,16 +183,13 @@ $darkPink:#6E6998;
       gap: 2em;
       padding-bottom: 10em;
 
-      .row{
-        display: flex;
-        flex-direction: row;
-        gap: 2em;
-      }
+      
    }
 }
 
 
 #Réalisation{
+  position: relative;
 
   background-color:$darkPurple ;
   padding-bottom: 10em;
@@ -206,6 +207,15 @@ $darkPink:#6E6998;
       justify-content: center;
       color:white;
       font-weight: 900;
+  }
+
+  .SectionCardRealisation{
+    display: flex;
+    position: relative;
+    left:16%;
+    flex-direction: column;
+    gap: 2em;
+    width: 60%;
   }
 }
 

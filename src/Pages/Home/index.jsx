@@ -1,13 +1,27 @@
 import './Home.scss'
+import React, { useState } from 'react';
 import Espace from "../../Assets/starry-sky.webp"
 import CardActivity from '../../Components/CardActivity'
 import CardRealisation from '../../Components/CardRealisation';
+import ModalRealisation from '../../Components/ModalRealisation';
 import { faDesktop } from '@fortawesome/free-solid-svg-icons';
-import Projet11 from '../../Assets/ArgentBank.webp';
+import ArgentBankLogo from '../../Assets/ArgentBankLogo.png';
 
 
 
 function Home () {
+
+    const [isModalOpen, setIsModalOpen] = useState(false);
+
+    const openModal = () => {
+        setIsModalOpen(true);
+        };
+        
+     const closeModal = () => {
+        setIsModalOpen(false);
+         };
+
+
     return(
         <div className="mainPage">
             <section className="BannièreHome">
@@ -81,11 +95,49 @@ function Home () {
             </section>
             <section id="Réalisation">
                 <h2>Réalisations</h2>
-                <CardRealisation
-                RealisationImage={Projet11}
-                nomRealisation="Argent Bank"
-                courteDescriptionRealisation="Gérer les States avec React-Redux"
-                />
+                <div className='SectionCardRealisation'>
+                    <div className='row'>
+                        <CardRealisation
+                        RealisationImage={ArgentBankLogo}
+                        nomRealisation="Argent Bank"
+                        courteDescriptionRealisation="Gérer les States avec React-Redux"
+                        onClick={openModal}
+                        />
+                        <CardRealisation
+                        RealisationImage={ArgentBankLogo}
+                        nomRealisation="Argent Bank"
+                        courteDescriptionRealisation="Gérer les States avec React-Redux"
+                        onClick={openModal}
+                        />
+                        <CardRealisation
+                        RealisationImage={ArgentBankLogo}
+                        nomRealisation="Argent Bank"
+                        courteDescriptionRealisation="Gérer les States avec React-Redux"
+                        onClick={openModal}
+                        />
+                    </div>
+                    <div className='row'>
+                        <CardRealisation
+                        RealisationImage={ArgentBankLogo}
+                        nomRealisation="Argent Bank"
+                        courteDescriptionRealisation="Gérer les States avec React-Redux"
+                        onClick={openModal}
+                        />
+                        <CardRealisation
+                        RealisationImage={ArgentBankLogo}
+                        nomRealisation="Argent Bank"
+                        courteDescriptionRealisation="Gérer les States avec React-Redux"
+                        onClick={openModal}
+                        />
+                        <CardRealisation
+                        RealisationImage={ArgentBankLogo}
+                        nomRealisation="Argent Bank"
+                        courteDescriptionRealisation="Gérer les States avec React-Redux"
+                        onClick={openModal}
+                        />
+                    </div>
+                </div>
+                {isModalOpen && <ModalRealisation closeModal={closeModal} />}
             </section>
             <section id="Compétence">
                 <h2>Compétences</h2>
