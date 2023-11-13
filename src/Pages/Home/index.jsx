@@ -6,20 +6,24 @@ import CardRealisation from '../../Components/CardRealisation';
 import ModalRealisation from '../../Components/ModalRealisation';
 import { faDesktop } from '@fortawesome/free-solid-svg-icons';
 import ArgentBankLogo from '../../Assets/ArgentBankLogo.png';
+import ArgentBankBanière from '../../Assets/ArgentBank.webp'
 
 
 
 function Home () {
 
     const [isModalOpen, setIsModalOpen] = useState(false);
+    const [selectedRealisation, setSelectedRealisation] = useState(null);
 
-    const openModal = () => {
-        setIsModalOpen(true);
-        };
-        
-     const closeModal = () => {
-        setIsModalOpen(false);
-         };
+    const openModal = (realisationData) => {
+      setSelectedRealisation(realisationData);
+      setIsModalOpen(true);
+    };
+  
+    const closeModal = () => {
+      setSelectedRealisation(null);
+      setIsModalOpen(false);
+    };
 
 
     return(
@@ -97,11 +101,19 @@ function Home () {
                 <h2>Réalisations</h2>
                 <div className='SectionCardRealisation'>
                     <div className='row'>
-                        <CardRealisation
+                    <CardRealisation
                         RealisationImage={ArgentBankLogo}
                         nomRealisation="Argent Bank"
                         courteDescriptionRealisation="Gérer les States avec React-Redux"
-                        onClick={openModal}
+                        onClick={() =>
+                            openModal({
+                                RealisationImage2: ArgentBankBanière,
+                                nomRealisation: "Argent Bank",
+                                longueDescriptionRealisation:
+                                "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero enim inventore possim porro necessitatibus nulla harum eius, omnis ratione quasi animi id voluptate eligendi minima velit earum rem in accusamus!",
+                                lienDuProjet:"https://github.com/wufo121/Projet-11",
+                                })
+                            }
                         />
                         <CardRealisation
                         RealisationImage={ArgentBankLogo}
@@ -137,7 +149,12 @@ function Home () {
                         />
                     </div>
                 </div>
-                {isModalOpen && <ModalRealisation closeModal={closeModal} />}
+                {isModalOpen && (
+                    <ModalRealisation
+                      closeModal={closeModal}
+                      {...selectedRealisation}
+                    />
+                )}
             </section>
             <section id="Compétence">
                 <h2>Compétences</h2>
