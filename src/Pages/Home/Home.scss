@@ -285,7 +285,17 @@ $darkPink:#6E6998;
       color:white;
       font-weight: 900;
   }
+
+  .SectionCardFormation{
+    margin-left: 5em;
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    padding-bottom: 10em;
+  }
 }
+
+
 #Contact{
 
   background-color:$darkPink ;
