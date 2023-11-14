@@ -32,6 +32,7 @@
         font-size: 2em;
         margin: 0 0.5em;
         color: black;
+        
     }
     button{
         padding: 0 2em;
@@ -44,7 +45,8 @@
         border: 2px solid black;
         font-size: 2em;
         color: white;
-        border-radius: 46% 54% 50% 50% / 100% 100% 0% 0%  
+        border-radius: 46% 54% 50% 50% / 100% 100% 0% 0% ;
+        cursor: pointer; 
     }
 
     a{

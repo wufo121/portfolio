@@ -7,7 +7,15 @@ import ModalRealisation from '../../Components/ModalRealisation';
 import { faDesktop } from '@fortawesome/free-solid-svg-icons';
 import ArgentBankLogo from '../../Assets/ArgentBankLogo.png';
 import ArgentBankBanière from '../../Assets/ArgentBank.webp'
-
+import CompétenceComposents from '../../Components/CompétenceComposents';
+import CardFormation from '../../Components/CardFormation';
+import HtmlLogo from '../../Assets/HTML_Logo.webp'
+import CssLogo from '../../Assets/Css_Logo.webp'
+import javascriptLogo from '../../Assets/JavaScript-logo.webp'
+import swaggerLogo from '../../Assets/Swagger_logo.webp'
+import ReactLogo from '../../Assets/React_logo.webp'
+import GitHubLogo from '../../Assets/githubLogo.svg'
+import GitLogo from '../../Assets/git logo.jpg'
 
 
 function Home () {
@@ -158,9 +166,57 @@ function Home () {
             </section>
             <section id="Compétence">
                 <h2>Compétences</h2>
+                <div className='CompétenceSection'>
+                    <div className='leftSection'>
+                        <CompétenceComposents
+                        logoLogiciel={HtmlLogo}
+                        nameLogiciel="HTML"
+                        pourcentageMaitrise={100}
+                        />
+                        <CompétenceComposents
+                        logoLogiciel={CssLogo}
+                        nameLogiciel="Css"
+                        pourcentageMaitrise={100}
+                        />
+                        <CompétenceComposents
+                        logoLogiciel={ReactLogo}
+                        nameLogiciel="React"
+                        pourcentageMaitrise={80}
+                        />
+                        <CompétenceComposents
+                        logoLogiciel={javascriptLogo}
+                        nameLogiciel="Javascript"
+                        pourcentageMaitrise={70}
+                        />
+                        <CompétenceComposents
+                        logoLogiciel={swaggerLogo}
+                        nameLogiciel="Swagger"
+                        pourcentageMaitrise={50}
+                        />
+                    </div>
+                    <div className='rightSection'>
+                        <h3>Les outils que j'utilises :</h3>
+                        <div className='row'>
+                            <img src={GitHubLogo} alt="GitHub logo"></img>
+                            <img src ={GitLogo} alt="Git logo"></img>
+                        </div>
+                    </div>
+                </div>
             </section>
             <section id="Formations">
                 <h2>Formations</h2>
+                <div className='SectionCardFormation'>
+                    <CardFormation
+                    TitreDeLaFormation="Intégrateur Web, OpenClassrooms"
+                    AnnéeDeFormation="2023"
+                    NoteFormation="En cours"
+                    />
+                    <CardFormation
+                    TitreDeLaFormation="Baccalauréat Mathématiques et Physique"
+                    AnnéeDeFormation="2020-2021"
+                    NoteFormation="Mention Bien"
+                    />
+                </div>
             </section>
             <section id="Contact">
                 <h2>Contact</h2>

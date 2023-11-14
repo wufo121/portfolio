@@ -7,6 +7,12 @@
   gap: 2em;
 }
 
+.Column{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 
 $darkBlue:#1B1A3B;
 $darkPurple: #262855;
@@ -221,8 +227,8 @@ $darkPink:#6E6998;
 
 
 #Compétence{
-
   background-color:$darkPink ;
+  padding-bottom: 10em;
 
   h2{
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
@@ -238,7 +244,28 @@ $darkPink:#6E6998;
       color:white;
       font-weight: 900;
   }
-}
+
+      
+      .CompétenceSection{
+        display: flex;
+
+        .leftSection{
+          width:80%;
+        }
+
+        .rightSection{
+          display: flex;
+          flex-direction: column;
+          width: 20%;
+          
+
+          img{
+            width: 30%;
+            margin: 2em;
+          }
+        }
+      }
+  }
 
 #Formations{
 
