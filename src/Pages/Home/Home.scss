@@ -184,7 +184,6 @@ $darkPink:#6E6998;
     .CardActivitySection {
       display: flex;
       flex-direction: row;
-      flex-wrap: wrap;
       position: relative;
       left: 20vw;
       width: 60%;
@@ -222,10 +221,10 @@ $darkPink:#6E6998;
   .SectionCardRealisation{
     display: flex;
     position: relative;
-    left:16%;
+    left:7%;
     flex-direction: column;
     gap: 2em;
-    width: 60%;
+    width: 80%;
   }
 }
 
@@ -331,6 +330,7 @@ $darkPink:#6E6998;
   .IconContact{
     width: 20%;
     display: flex;
+    gap: 10vw;
     position: relative;
     left: 40%;
     flex-direction: row;
@@ -338,12 +338,70 @@ $darkPink:#6E6998;
     color:$darkBlue;
 
     .envelope-icon{
-      font-size: 5em;
-      margin-right: 2em;
+      font-size: 15vw;
     }
     .Linkedin-icon{
-      font-size: 5em;
+      font-size: 15vw;
     }
   }
 }
+
+
+@media screen and (max-width: 767px) {
+ 
+
+  #Réalisation{
+    padding-bottom: 5em;
+    .SectionCardRealisation{
+      padding-top: 2em;
+      width: 60%;
+      left:16%;
+      .row{
+        flex-direction: column;
+      }
+    }
+  }
+  #Activité{
+
+    .CardActivitySection {
+      width: 100%;
+      position: relative;
+      left: 0vw;
+      padding-bottom: 15%;
+
+      
+   }
+}
+  #Compétence{
+    padding-bottom: 5em;
+
+    .CompétenceSection{
+      flex-direction: column;
+
+      .leftSection{
+        width:100%;
+      }
+
+      .rightSection{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+      }
+    }
+  }
+  #Formations{
+    .SectionCardFormation{
+      padding-top: 2em;
+      padding-left: 1em;
+      display: flex;
+      width: 100%;
+      flex-direction: column;
+      gap: 2em;
+      padding-bottom: 5em;
+      margin: 0;
+    }
+  }
+ 
+  }
+
   

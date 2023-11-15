@@ -9,3 +9,17 @@
     border-radius: 10px;
     padding-bottom: 2em;
 }
+
+@media screen and (max-width: 767px) {
+    
+    .CardFormation{
+        background-color: white;
+        padding: 2em;
+        display: flex;
+        flex-direction: column;
+        width: 60%;
+        border-radius: 10px;
+        padding-bottom: 2em;
+        font-size: 3vw;
+    }
+}
