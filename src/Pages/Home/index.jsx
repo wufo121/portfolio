@@ -1,14 +1,17 @@
+/*style*/
 import './Home.scss'
+/*modules*/
+import { faDesktop, faEnvelope } from '@fortawesome/free-solid-svg-icons';
+import { faLinkedin } from '@fortawesome/free-brands-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React, { useState } from 'react';
-import Espace from "../../Assets/starry-sky.webp"
+/*composants*/
 import CardActivity from '../../Components/CardActivity'
 import CardRealisation from '../../Components/CardRealisation';
 import ModalRealisation from '../../Components/ModalRealisation';
-import { faDesktop } from '@fortawesome/free-solid-svg-icons';
-import ArgentBankLogo from '../../Assets/ArgentBankLogo.png';
-import ArgentBankBanière from '../../Assets/ArgentBank.webp'
 import CompétenceComposents from '../../Components/CompétenceComposents';
 import CardFormation from '../../Components/CardFormation';
+/*Image*/
 import HtmlLogo from '../../Assets/HTML_Logo.webp'
 import CssLogo from '../../Assets/Css_Logo.webp'
 import javascriptLogo from '../../Assets/JavaScript-logo.webp'
@@ -16,6 +19,10 @@ import swaggerLogo from '../../Assets/Swagger_logo.webp'
 import ReactLogo from '../../Assets/React_logo.webp'
 import GitHubLogo from '../../Assets/githubLogo.svg'
 import GitLogo from '../../Assets/git logo.jpg'
+import SassLogo from '../../Assets/Sass_Logo.webp'
+import Espace from "../../Assets/starry-sky.webp"
+import ArgentBankLogo from '../../Assets/ArgentBankLogo.png';
+import ArgentBankBanière from '../../Assets/ArgentBank.webp'
 
 
 function Home () {
@@ -32,6 +39,14 @@ function Home () {
       setSelectedRealisation(null);
       setIsModalOpen(false);
     };
+
+    const handleIconClickContact = () => {
+        window.location.href = 'mailto:wufo121@gmail.com';
+     };
+
+     const linkToLinkedin = () => {
+        window.open('https://fr.linkedin.com/', '_blank');
+     };
 
 
     return(
@@ -196,9 +211,10 @@ function Home () {
                     </div>
                     <div className='rightSection'>
                         <h3>Les outils que j'utilises :</h3>
-                        <div className='row'>
+                        <div className='Column'>
                             <img src={GitHubLogo} alt="GitHub logo"></img>
                             <img src ={GitLogo} alt="Git logo"></img>
+                            <img src={SassLogo} alt="Sass logo"></img>
                         </div>
                     </div>
                 </div>
@@ -207,7 +223,7 @@ function Home () {
                 <h2>Formations</h2>
                 <div className='SectionCardFormation'>
                     <CardFormation
-                    TitreDeLaFormation="Intégrateur Web, OpenClassrooms"
+                    TitreDeLaFormation="Intégrateur Web, OpenClassrooms (bac+2)"
                     AnnéeDeFormation="2023"
                     NoteFormation="En cours"
                     />
@@ -220,6 +236,18 @@ function Home () {
             </section>
             <section id="Contact">
                 <h2>Contact</h2>
+                <div className='IconContact'>
+                <FontAwesomeIcon
+                    icon={faEnvelope}
+                    className="envelope-icon"
+                    onClick={handleIconClickContact}
+                />
+                <FontAwesomeIcon
+                 icon={faLinkedin}
+                 className='Linkedin-icon'
+                 onClick={linkToLinkedin}
+                 />
+                 </div>
             </section>
         </div>
     )
