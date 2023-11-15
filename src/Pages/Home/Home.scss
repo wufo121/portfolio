@@ -35,9 +35,9 @@ $darkPink:#6E6998;
 
 .BannièreHome {
     display: flex;
+    position: relative;
   
     img {
-      position: relative;
       object-fit: cover;
       width: 100%;
       z-index: -1;
@@ -46,26 +46,27 @@ $darkPink:#6E6998;
     .ApparitionLettre {
       display: flex;
       flex-direction: column;
-      position: absolute;
+      position:absolute;
       align-items: center;
-      left: 35%;
-      top: 20%;
+      left: 38%;
+      top: 33%;
+      
       
         ul {
         display: flex;
         list-style: none;
         margin: 0;
-        font-size: 5vw;
         color: transparent;
         font-weight: 900;
         text-shadow: 0 0 10px rgba(255, 255, 255, 0.7);
         overflow: hidden;
+        padding: 0;
       }
   
       .lettre {
-        margin-right: 6px;
         animation: apparition 0.7s cubic-bezier(1,-0.02,1,.66) forwards; 
         opacity: 0;
+        font-size: 5vw;
       }
 
       .nom{
@@ -127,7 +128,7 @@ $darkPink:#6E6998;
 
   #Présentation{
     background-color:  $darkPurple;
-    padding-bottom: 10em;
+    padding-bottom: 15%;
     
 
     h2{
@@ -137,8 +138,8 @@ $darkPink:#6E6998;
       top:-1.5em;
       width: 25%;
       background-color: $darkBlue ;
-      padding: 1em;
-      font-size: 3em;
+      padding: 2%;
+      font-size: 3vw;
       display: flex;
       justify-content: center;
       color:white;
@@ -148,14 +149,14 @@ $darkPink:#6E6998;
     p{
       position: relative;
       left:12%;
-      margin-top: 4% ;
+      margin-top: 3% ;
       display: flex;
       width: 75%;
       color: white;
       justify-content: center;
       font-weight: 500;
       text-align: center;
-      font-size: 3vh
+      font-size: 2vw
       
     }
   }
@@ -172,8 +173,8 @@ $darkPink:#6E6998;
       top:-1.5em;
       width: 25%;
       background-color: $pastelPurple;
-      padding: 1em;
-      font-size: 3em;
+      padding: 3%;
+      font-size: 3vw;
       display: flex;
       justify-content: center;
       color:white;
@@ -181,13 +182,16 @@ $darkPink:#6E6998;
     }
 
     .CardActivitySection {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
       position: relative;
-      left: 25%;
-      width: 50%;
+      left: 20vw;
+      width: 60%;
       display: flex;
       flex-direction: column;
       gap: 2em;
-      padding-bottom: 10em;
+      padding-bottom: 15%;
 
       
    }
@@ -207,8 +211,8 @@ $darkPink:#6E6998;
       top:-1.5em;
       width: 25%;
       background-color: $darkBlue;
-      padding: 1em;
-      font-size: 3em;
+      padding: 3%;
+      font-size: 3vw;
       display: flex;
       justify-content: center;
       color:white;
@@ -237,8 +241,8 @@ $darkPink:#6E6998;
       top:-1.5em;
       width: 25%;
       background-color: $pastelPurple;
-      padding: 1em;
-      font-size: 3em;
+      padding: 3%;
+      font-size: 3vw;
       display: flex;
       justify-content: center;
       color:white;
@@ -287,8 +291,8 @@ $darkPink:#6E6998;
       top:-1.5em;
       width: 25%;
       background-color: $darkBlue;
-      padding: 1em;
-      font-size: 3em;
+      padding: 3%;
+      font-size: 3vw;
       display: flex;
       justify-content: center;
       color:white;
@@ -316,8 +320,8 @@ $darkPink:#6E6998;
       top:-1.5em;
       width: 25%;
       background-color: $pastelPurple;
-      padding: 1em;
-      font-size: 3em;
+      padding: 3%;
+      font-size: 3vw;
       display: flex;
       justify-content: center;
       color:white;

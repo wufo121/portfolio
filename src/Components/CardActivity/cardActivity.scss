@@ -4,8 +4,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 100%;
-    height: 20vh;
+    width: 1000%;
+    height: 10%;
     border-radius: 25px;
     flex-direction: column;
     background-color: rgb(27, 26, 59);
@@ -15,14 +15,20 @@
     transition: background-color 0.3s, color 0.3s;
 
     h3{
+        font-size: 1vw;
         margin-top: 1em;
         margin-bottom: 1em;
         font-weight: 900;
     }
 
     p{
+        font-size: 1vw;
         color:rgb(27, 26, 59) ;
         font-weight: 500;
+    }
+
+    .IconActivity{
+        font-size: 3vw;
     }
 
     &:hover{
