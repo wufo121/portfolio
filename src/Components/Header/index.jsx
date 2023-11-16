@@ -1,10 +1,21 @@
-import HomePicture from '../../Assets/Home.svg'
-import githubLogo from '../../Assets/githubLogo.svg'
-import { Link } from 'react-router-dom'
-import './Header.scss'
+import React, { useState } from 'react';
+import HomePicture from '../../Assets/Home.svg';
+import githubLogo from '../../Assets/githubLogo.svg';
+import { Link } from 'react-router-dom';
+import './Header.scss';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faBars } from '@fortawesome/free-solid-svg-icons';
 
 function Header() {
+  const [isMobileMenuVisible, setMobileMenuVisible] = useState(false);
+
+  const toggleMobileMenu = () => {
+    setMobileMenuVisible(!isMobileMenuVisible);
+  };
+
+
     return (
+        
         <div className="Header">
             <div className="partLeftNavigation">
                 <Link to ="/" className='LinkHome'>
@@ -16,7 +27,12 @@ function Header() {
                 </Link>
             </div>
             <div className="PartRightNavigation">
-                <nav>
+            <FontAwesomeIcon
+                        icon={faBars}
+                        className='faBars'
+                        onClick={toggleMobileMenu}
+                    />
+                <nav className={isMobileMenuVisible ? 'visible' : ''}>
                     <ul>
                         <li>
                             <a href="#Présentation">Présentation</a>
