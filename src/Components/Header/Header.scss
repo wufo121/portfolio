@@ -68,8 +68,6 @@
         
 
         &:hover{
-           /* border-left: 3px solid white;*/
-           /* border-bottom: 3px solid grey;*/
            background-color: white;
            color: black;
         }
@@ -98,6 +96,9 @@
         }
         
         nav{
+            position: relative;
+            height: 2vh;
+            top: 60%;
             display: none;
             &.visible{
                 display: block;
@@ -105,8 +106,6 @@
             ul{
                 
                 width: 20vw;
-                position: relative;
-                top: 100%;
                 background-color: black;
                 display: flex;
                 flex-direction: column;
