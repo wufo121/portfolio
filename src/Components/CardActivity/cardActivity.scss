@@ -36,6 +36,35 @@
         color:rgb(27, 26, 59) ;
         background-color: rgb(103, 110, 165);
     }
+}
 
-     
+@media screen and (max-width: 767px) {
+
+    .cardActivity{
+        
+        
+        h3{
+            font-size: 3vw;
+            margin-top: 1em;
+            margin-bottom: 1em;
+            font-weight: 900;
+        }
+    
+        p{
+            font-size: 2vw;
+            color:rgb(27, 26, 59) ;
+            font-weight: 500;
+        }
+    
+        .IconActivity{
+            font-size: 7vw;
+        }
+    
+        &:hover{
+    
+            color:rgb(27, 26, 59) ;
+            background-color: rgb(103, 110, 165);
+        }
+    }
+
 }

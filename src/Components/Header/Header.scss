@@ -4,7 +4,7 @@
     position: fixed;
     display:flex;
     background-color: black;
-    height: 4.5em;
+    height: 3.5em;
     flex-direction: row;
     width: 100%;
     z-index: 2;
@@ -58,23 +58,31 @@
         
 
         li{
-            
+            height: 100%;
+
+    
             a {
-        color: white;
-        text-decoration: none;
-        padding:25px 2em ;
-        font-weight: 500;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 100%;
+                color: white;
+                text-decoration: none;
+                padding:17px 2em ;
+                font-weight: 500;
         
         
 
-        &:hover{
-           background-color: white;
-           color: black;
-        }
+            &:hover{
+                background-color: white;
+                color: black;
+                }
             }
 
         .githubLogo{
-            height: 2em;
+            
+            position:relative;
+            height: 2vw;
             background-color: white;
             border-radius: 50%;
         }
@@ -120,6 +128,9 @@
                         align-items: center;
                         width: 100%;
                         padding: 3vw 0vw 4vw 0;
+                    }
+                    .githubLogo{
+                        scale: 2;
                     }
                 }
     

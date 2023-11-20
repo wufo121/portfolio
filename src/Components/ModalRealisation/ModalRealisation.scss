@@ -3,13 +3,13 @@
 .ModalRealisation {
     display: flex;
     width: 50%;
-    height: 50vh;
+    
     flex-direction: column;
     
     border-radius: 15px;
     padding-bottom: 2em;
     background-color: #6E6998;
-    border: 5px solid black;
+    
     position:absolute;
     z-index: 2;
     left: 25%;
@@ -17,19 +17,19 @@
     box-shadow: rgba(0, 0, 0, 0.4) 0px 5px 15px;
 
     img{
-        border-radius: 15px;
+        border-radius: 10px;
         object-fit: cover;
     }
 
     h3{
         display: flex;
         justify-content: center;
-        font-size: 3em;
+        font-size: 3vw;
         margin-bottom: 1em;
     }
 
     p{
-        font-size: 2em;
+        font-size: 1.5vw;
         margin: 0 0.5em;
         color: black;
         
@@ -39,23 +39,57 @@
         position: absolute;
         bottom:0;
         z-index: 3;
-        right: 44%;
+        right: 40%;
         border: none;
-        background-color: black;
-        border: 2px solid black;
-        font-size: 2em;
+        background-color: #1B1A3B;
+        border: 2px solid #1B1A3B;
+        font-size: 2vw;
         color: white;
         border-radius: 46% 54% 50% 50% / 100% 100% 0% 0% ;
         cursor: pointer; 
     }
 
     a{
-        margin-top: 1em;
+        margin-top: 5%;
+        font-weight: 500;
+        margin-bottom: 2%;
         justify-content: center;
         display: flex;
         text-decoration: none;
         color: black;
-        font-size: 1.5em;
+        font-size: 1.4vw;
         
     }
+}
+
+@media screen and (max-width: 767px) {
+
+    .ModalRealisation {
+        scale: 1.7;
+        border-radius: 5px;
+        padding-bottom: 5%;
+    
+        img{
+            border-radius: 2px;
+            object-fit:fill;
+            height: 15vw;
+        }
+    
+        h3{
+           font-size: 5vw; 
+        }
+    
+        p{
+            font-size: 2.5vw;
+        }
+        button{
+            font-size: 2vw;
+        }
+    
+        a{
+            font-size: 2vw;
+            
+        }
+    }
+
 }
