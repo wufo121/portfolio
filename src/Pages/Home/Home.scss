@@ -348,6 +348,38 @@ $darkPink:#6E6998;
 
 
 @media screen and (max-width: 767px) {
+
+  h2{
+    
+    scale: 1.5;
+  }
+  
+  .BannièreHome {
+    padding-top: 7%;
+    height: 60vw;
+
+    .ApparitionLettre {
+      
+      top: 40%;
+      scale: 2;
+  }
+}
+
+
+
+#Présentation{
+  background-color:  $darkPurple;
+  padding-bottom: 15%;
+  
+  
+
+  
+
+  p{
+    font-size: 4vw
+  }
+}
+
  
 
   #Réalisation{
