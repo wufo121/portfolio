@@ -65,12 +65,12 @@
 @media screen and (max-width: 767px) {
 
     .ModalRealisation {
-        position: absolute;
+        position:fixed;
         scale: 1.7;
         height:auto;
         border-radius: 5px;
         padding-bottom: 5%;
-        left: 22%;
+        left: 25%;
         top: 10em;
     
         img{
@@ -95,9 +95,6 @@
             
         }
 
-        :nth-of-type(2){
-            top: 11em;
-        }
     }
 
 }
