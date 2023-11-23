@@ -18,13 +18,13 @@ function Header() {
         
         <div className="Header">
             <div className="partLeftNavigation">
-                <Link to ="/" className='LinkHome'>
+                <a href ="#BannièreHome" className='LinkHome'>
                     <img
                      src={HomePicture}
                      alt="Retour page Home"
                      className='HomePicture'
                      />
-                </Link>
+                </a>
             </div>
             <div className="PartRightNavigation">
             <FontAwesomeIcon

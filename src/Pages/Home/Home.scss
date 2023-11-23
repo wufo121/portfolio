@@ -33,7 +33,7 @@ $darkPink:#6E6998;
   }
 }
 
-.BannièreHome {
+#BannièreHome {
     display: flex;
     position: relative;
   
@@ -354,7 +354,7 @@ $darkPink:#6E6998;
     scale: 1.5;
   }
   
-  .BannièreHome {
+  #BannièreHome {
     padding-top: 7%;
     height: 60vw;
 
@@ -397,23 +397,16 @@ $darkPink:#6E6998;
   #Activité{
 
     .CardActivitySection {
+
       width: 70%;
-      
       position: relative;
       left:12%;
       padding-bottom: 15%;
 
-
-
-
       .row{
         flex-direction: column;
-
         height: 100%;
-        
       }
-
-      
    }
 }
   #Compétence{

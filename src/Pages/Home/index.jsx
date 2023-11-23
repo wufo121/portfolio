@@ -52,7 +52,7 @@ function Home () {
 
     return(
         <div className="mainPage">
-            <section className="BannièreHome">
+            <section id="BannièreHome">
                 <img src={Espace} alt="espace"></img>
                 <div className='ApparitionLettre'>
                     <ul className='nom'>
