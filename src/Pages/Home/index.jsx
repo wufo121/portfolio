@@ -1,7 +1,7 @@
 /*style*/
 import './Home.scss'
 /*modules*/
-import { faDesktop, faEnvelope } from '@fortawesome/free-solid-svg-icons';
+import { faDesktop, faEnvelope, faBullseye, faGlobe, faHandshake, faCodeFork, faWrench } from '@fortawesome/free-solid-svg-icons';
 import { faLinkedin } from '@fortawesome/free-brands-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React, { useState } from 'react';
@@ -87,35 +87,35 @@ function Home () {
                     <div className='row'>
                         <CardActivity
                             iconCardActivity={faDesktop}
-                            titleCardActivity="Multi-plateforme"
+                            titleCardActivity="Code Responsive"
                             paragraphCardActivity="Compatible tous supports, tablette & application mobile"
                         />
                         <CardActivity
-                            iconCardActivity={faDesktop}
-                            titleCardActivity="Multi-plateforme"
-                            paragraphCardActivity="Compatible tous supports, tablette & application mobile"
+                            iconCardActivity={faBullseye}
+                            titleCardActivity="Référencement"
+                            paragraphCardActivity="Je peux créer du code optimisé pour le référencement"
                         />
                         <CardActivity
-                            iconCardActivity={faDesktop}
-                            titleCardActivity="Multi-plateforme"
-                            paragraphCardActivity="Compatible tous supports, tablette & application mobile"
+                            iconCardActivity={faGlobe}
+                            titleCardActivity="Site Web"
+                            paragraphCardActivity="Landing page, site vitrine, e-commerce, site responsive web & mobile."
                         />
                     </div>
                     <div className='row'>
                         <CardActivity
-                            iconCardActivity={faDesktop}
-                            titleCardActivity="Multi-plateforme"
-                            paragraphCardActivity="Compatible tous supports, tablette & application mobile"
+                            iconCardActivity={faHandshake}
+                            titleCardActivity="Communication client"
+                            paragraphCardActivity="Communication client transparente et proactive pour comprendre efficacement les besoins."
                         />
                         <CardActivity
-                            iconCardActivity={faDesktop}
-                            titleCardActivity="Multi-plateforme"
-                            paragraphCardActivity="Compatible tous supports, tablette & application mobile"
+                            iconCardActivity={faCodeFork}
+                            titleCardActivity="Intégration de Systèmes"
+                            paragraphCardActivity="interconnectivité fluide entre différentes plateformes et logiciels"
                         />
                         <CardActivity
-                            iconCardActivity={faDesktop}
-                            titleCardActivity="Multi-plateforme"
-                            paragraphCardActivity="Compatible tous supports, tablette & application mobile"
+                            iconCardActivity={faWrench}
+                            titleCardActivity="Maintenance"
+                            paragraphCardActivity="Services de maintenance continue, correction de bugs, mises à jour logicielles"
                         />
                     </div>
                 </div>

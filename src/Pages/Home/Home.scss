@@ -185,8 +185,8 @@ $darkPink:#6E6998;
       display: flex;
       flex-direction: row;
       position: relative;
-      left: 20vw;
-      width: 60%;
+      left: 10vw;
+      width: 80%;
       display: flex;
       flex-direction: column;
       gap: 4vw;
@@ -396,10 +396,12 @@ $darkPink:#6E6998;
   #Activité{
 
     .CardActivitySection {
-      width: 70%;
+      width: 100%;
+      
       position: relative;
-      left: 29%;
+      left: 22%;
       padding-bottom: 15%;
+
 
       .row{
         flex-direction: column;
