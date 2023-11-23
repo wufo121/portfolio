@@ -33,6 +33,7 @@ function Home () {
     const openModal = (realisationData) => {
       setSelectedRealisation(realisationData);
       setIsModalOpen(true);
+      
     };
   
     const closeModal = () => {
@@ -74,12 +75,9 @@ function Home () {
             </section>
             <section id="Présentation">
                 <h2>Présentation</h2>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero enim inventore possimus
-                     porro necessitatibus nulla harum eius, omnis ratione quasi animi id voluptate eligendi minima velit earum 
-                     rem in accusamus!</p>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Provident doloribus obcaecati eum, facilis dolorum,
-                     pariatur illo atque quis quo id excepturi cum. Magnam ipsa cumque
-                      in eaque dolores, neque dolor!</p>
+                <p>Je suis un développeur web spécialisé dans Le Front-end.</p>
+                <p>Passionné par la création de sites sur mesure, je m'efforce de fournir des expériences utilisateur exceptionnelles.</p>
+                <p>Découvrez mes projets récents dans mon portfolio et contactez-moi pour discuter de votre projet web.</p>
             </section>
             <section id="Activité">
                 <h2>Activités</h2>

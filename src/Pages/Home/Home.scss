@@ -392,24 +392,23 @@ $darkPink:#6E6998;
         flex-direction: column;
       }
     }
-    .ModalRealisation.DynamicPosition {
-      top: calc(10em + 30em * var(--modal-count));
-    }
-
+    
   }
   #Activité{
 
     .CardActivitySection {
-      width: 100%;
+      width: 70%;
       
       position: relative;
-      left: 22%;
+      left:12%;
       padding-bottom: 15%;
+
+
 
 
       .row{
         flex-direction: column;
-        width: 50%;
+
         height: 100%;
         
       }
