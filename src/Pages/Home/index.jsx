@@ -142,33 +142,73 @@ function Home () {
                         RealisationImage={ArgentBankLogo}
                         nomRealisation="Argent Bank"
                         courteDescriptionRealisation="Gérer les States avec React-Redux"
-                        onClick={openModal}
+                        onClick={() =>
+                            openModal({
+                                RealisationImage2: ArgentBankBanière,
+                                nomRealisation: "Argent Bank",
+                                longueDescriptionRealisation:
+                                "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero enim inventore possim porro necessitatibus nulla harum eius, omnis ratione quasi animi id voluptate eligendi minima velit earum rem in accusamus!",
+                                lienDuProjet:"https://github.com/wufo121/Projet-11",
+                                })
+                            }
                         />
                         <CardRealisation
                         RealisationImage={ArgentBankLogo}
                         nomRealisation="Argent Bank"
                         courteDescriptionRealisation="Gérer les States avec React-Redux"
-                        onClick={openModal}
+                        onClick={() =>
+                            openModal({
+                                RealisationImage2: ArgentBankBanière,
+                                nomRealisation: "Argent Bank",
+                                longueDescriptionRealisation:
+                                "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero enim inventore possim porro necessitatibus nulla harum eius, omnis ratione quasi animi id voluptate eligendi minima velit earum rem in accusamus!",
+                                lienDuProjet:"https://github.com/wufo121/Projet-11",
+                                })
+                            }
                         />
                     </div>
                     <div className='row'>
-                        <CardRealisation
+                    <CardRealisation
                         RealisationImage={ArgentBankLogo}
                         nomRealisation="Argent Bank"
                         courteDescriptionRealisation="Gérer les States avec React-Redux"
-                        onClick={openModal}
+                        onClick={() =>
+                            openModal({
+                                RealisationImage2: ArgentBankBanière,
+                                nomRealisation: "Argent Bank",
+                                longueDescriptionRealisation:
+                                "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero enim inventore possim porro necessitatibus nulla harum eius, omnis ratione quasi animi id voluptate eligendi minima velit earum rem in accusamus!",
+                                lienDuProjet:"https://github.com/wufo121/Projet-11",
+                                })
+                            }
                         />
                         <CardRealisation
                         RealisationImage={ArgentBankLogo}
                         nomRealisation="Argent Bank"
                         courteDescriptionRealisation="Gérer les States avec React-Redux"
-                        onClick={openModal}
+                        onClick={() =>
+                            openModal({
+                                RealisationImage2: ArgentBankBanière,
+                                nomRealisation: "Argent Bank",
+                                longueDescriptionRealisation:
+                                "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero enim inventore possim porro necessitatibus nulla harum eius, omnis ratione quasi animi id voluptate eligendi minima velit earum rem in accusamus!",
+                                lienDuProjet:"https://github.com/wufo121/Projet-11",
+                                })
+                            }
                         />
                         <CardRealisation
                         RealisationImage={ArgentBankLogo}
                         nomRealisation="Argent Bank"
                         courteDescriptionRealisation="Gérer les States avec React-Redux"
-                        onClick={openModal}
+                        onClick={() =>
+                            openModal({
+                                RealisationImage2: ArgentBankBanière,
+                                nomRealisation: "Argent Bank",
+                                longueDescriptionRealisation:
+                                "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero enim inventore possim porro necessitatibus nulla harum eius, omnis ratione quasi animi id voluptate eligendi minima velit earum rem in accusamus!",
+                                lienDuProjet:"https://github.com/wufo121/Projet-11",
+                                })
+                            }
                         />
                     </div>
                 </div>

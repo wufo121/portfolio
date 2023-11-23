@@ -65,14 +65,18 @@
 @media screen and (max-width: 767px) {
 
     .ModalRealisation {
+        position: absolute;
         scale: 1.7;
+        height:auto;
         border-radius: 5px;
         padding-bottom: 5%;
+        left: 22%;
+        top: 10em;
     
         img{
             border-radius: 2px;
             object-fit:fill;
-            height: 15vw;
+            height: 20vw;
         }
     
         h3{
@@ -80,7 +84,7 @@
         }
     
         p{
-            font-size: 2.5vw;
+            font-size: 3vw;
         }
         button{
             font-size: 2vw;
@@ -89,6 +93,10 @@
         a{
             font-size: 2vw;
             
+        }
+
+        :nth-of-type(2){
+            top: 11em;
         }
     }
 
