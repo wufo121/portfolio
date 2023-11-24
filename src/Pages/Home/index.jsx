@@ -21,8 +21,19 @@ import GitHubLogo from '../../Assets/githubLogo.svg'
 import GitLogo from '../../Assets/git logo.jpg'
 import SassLogo from '../../Assets/Sass_Logo.webp'
 import Espace from "../../Assets/starry-sky.webp"
-import ArgentBankLogo from '../../Assets/ArgentBankLogo.png';
-import ArgentBankBanière from '../../Assets/ArgentBank.webp'
+import kasa1 from '../../Assets/Kasa1.webp'
+import kasa2 from '../../Assets/Kasa2.webp'
+import optimisation1 from '../../Assets/Optimisation1.webp'
+import optimisation2 from '../../Assets/Optimisation2.webp'
+import portfolioArchi1 from '../../Assets/PortfolioSophie.webp'
+import portfolioArchi2 from '../../Assets/PortfolioSophie2.webp'
+import débugguer1 from '../../Assets/77events1.webp'
+import débugguer2 from '../../Assets/77events2.webp'
+import OhmyFood1 from '../../Assets/OhMyFood1.webp'
+import OhmyFood2 from "../../Assets/OhMyFood2.webp"
+import ArgentBankLogo from '../../Assets/ArgentBankLogo.webp'
+import ArgentBankBanière from "../../Assets/ArgentBank.webp"
+
 
 
 function Home () {
@@ -137,13 +148,13 @@ function Home () {
                             }
                         />
                         <CardRealisation
-                        RealisationImage={ArgentBankLogo}
+                        RealisationImage={kasa2}
                         nomRealisation="Argent Bank"
                         courteDescriptionRealisation="Gérer les States avec React-Redux"
                         onClick={() =>
                             openModal({
-                                RealisationImage2: ArgentBankBanière,
-                                nomRealisation: "Argent Bank",
+                                RealisationImage2: kasa1,
+                                nomRealisation: "Kasa",
                                 longueDescriptionRealisation:
                                 "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero enim inventore possim porro necessitatibus nulla harum eius, omnis ratione quasi animi id voluptate eligendi minima velit earum rem in accusamus!",
                                 lienDuProjet:"https://github.com/wufo121/Projet-11",
@@ -151,12 +162,12 @@ function Home () {
                             }
                         />
                         <CardRealisation
-                        RealisationImage={ArgentBankLogo}
-                        nomRealisation="Argent Bank"
+                        RealisationImage={optimisation1}
+                        nomRealisation="Optimisation"
                         courteDescriptionRealisation="Gérer les States avec React-Redux"
                         onClick={() =>
                             openModal({
-                                RealisationImage2: ArgentBankBanière,
+                                RealisationImage2: optimisation2,
                                 nomRealisation: "Argent Bank",
                                 longueDescriptionRealisation:
                                 "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero enim inventore possim porro necessitatibus nulla harum eius, omnis ratione quasi animi id voluptate eligendi minima velit earum rem in accusamus!",
@@ -167,12 +178,12 @@ function Home () {
                     </div>
                     <div className='row'>
                     <CardRealisation
-                        RealisationImage={ArgentBankLogo}
-                        nomRealisation="Argent Bank"
+                        RealisationImage={portfolioArchi1}
+                        nomRealisation="Portfolio"
                         courteDescriptionRealisation="Gérer les States avec React-Redux"
                         onClick={() =>
                             openModal({
-                                RealisationImage2: ArgentBankBanière,
+                                RealisationImage2: portfolioArchi2,
                                 nomRealisation: "Argent Bank",
                                 longueDescriptionRealisation:
                                 "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero enim inventore possim porro necessitatibus nulla harum eius, omnis ratione quasi animi id voluptate eligendi minima velit earum rem in accusamus!",
@@ -181,12 +192,12 @@ function Home () {
                             }
                         />
                         <CardRealisation
-                        RealisationImage={ArgentBankLogo}
-                        nomRealisation="Argent Bank"
+                        RealisationImage={débugguer2}
+                        nomRealisation="Débugguer"
                         courteDescriptionRealisation="Gérer les States avec React-Redux"
                         onClick={() =>
                             openModal({
-                                RealisationImage2: ArgentBankBanière,
+                                RealisationImage2: débugguer1,
                                 nomRealisation: "Argent Bank",
                                 longueDescriptionRealisation:
                                 "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero enim inventore possim porro necessitatibus nulla harum eius, omnis ratione quasi animi id voluptate eligendi minima velit earum rem in accusamus!",
@@ -195,12 +206,12 @@ function Home () {
                             }
                         />
                         <CardRealisation
-                        RealisationImage={ArgentBankLogo}
-                        nomRealisation="Argent Bank"
+                        RealisationImage={OhmyFood1}
+                        nomRealisation="Oh My Food"
                         courteDescriptionRealisation="Gérer les States avec React-Redux"
                         onClick={() =>
                             openModal({
-                                RealisationImage2: ArgentBankBanière,
+                                RealisationImage2: OhmyFood2,
                                 nomRealisation: "Argent Bank",
                                 longueDescriptionRealisation:
                                 "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero enim inventore possim porro necessitatibus nulla harum eius, omnis ratione quasi animi id voluptate eligendi minima velit earum rem in accusamus!",
