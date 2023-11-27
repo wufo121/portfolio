@@ -142,7 +142,7 @@ function Home () {
                                 RealisationImage2: ArgentBankBanière,
                                 nomRealisation: "Argent Bank",
                                 longueDescriptionRealisation:
-                                "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero enim inventore possim porro necessitatibus nulla harum eius, omnis ratione quasi animi id voluptate eligendi minima velit earum rem in accusamus!",
+                                "Dans ce projet, j'ai pu réalisé le site d'une bank avec react router, j'ai commencé par initialisé mon projet avec react puis j'ai recrer les différentes pages en fonction des maquettes, j'ai tout de suite fait en sorte de couper mon code en section réutilisable avec React. Ensuite j'ai fait mes appel fetch pour récupérer les données du backend de l'utilisateur, j'ai ensuite utilisé redux pour pouvoir utilisé mes states sur n'importe quel composant, j'ai pu aussi enregistrer les infos utilisateurs comme nom, prenom, pseudo et le token d'authentification,  mes ouvertures et fermeture de ma modal, et le fait de savoir si je suis connecté ou non. J'ai pu aussi à m'initer au backend rajoutant du code sur swagger pour prévoir le montant du compte, recevoir les transactions par date et même pouvoir rajouter des notes.",
                                 lienDuProjet:"https://github.com/wufo121/Projet-11",
                                 })
                             }
@@ -156,7 +156,7 @@ function Home () {
                                 RealisationImage2: kasa1,
                                 nomRealisation: "Kasa",
                                 longueDescriptionRealisation:
-                                "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero enim inventore possim porro necessitatibus nulla harum eius, omnis ratione quasi animi id voluptate eligendi minima velit earum rem in accusamus!",
+                                "Dans ce projet, j'ai pu réaliser le site d'une agence immobilière, le but était de m'initier à React et de comprendre son fonctionement. Chaque logement a son propre ID et est relié à sa propre page. Chaque page contient un slider,une note mais aussi des accordéons qui contiennent la description et les équipements du logements. ",
                                 lienDuProjet:"https://github.com/wufo121/projet8-kasa",
                                 })
                             }
@@ -170,7 +170,7 @@ function Home () {
                                 RealisationImage2: optimisation2,
                                 nomRealisation: "Optimisation",
                                 longueDescriptionRealisation:
-                                "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero enim inventore possim porro necessitatibus nulla harum eius, omnis ratione quasi animi id voluptate eligendi minima velit earum rem in accusamus!",
+                                "Dans ce projet j'ai récupéré le portfolio d'une photographe qui avait du mal à chargé, j'ai optimisé les images en les compressant et en les mettant à la bonne taille, minimifié le code et corrigé le HTML. Puis j'ai optimisé le SEO du site en rajoutant des balises comme title ou meta description. Pour finir j'ai rajouté un référencement local visible par l'outil ggole rich snippet et un référencement pour les réseaux pour contrôler l'apparence des liens partagés.  ",
                                 lienDuProjet:"https://github.com/wufo121/projet9-optimisation",
                                 })
                             }
@@ -186,7 +186,7 @@ function Home () {
                                 RealisationImage2: portfolioArchi2,
                                 nomRealisation: "Portfolio photographe",
                                 longueDescriptionRealisation:
-                                "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero enim inventore possim porro necessitatibus nulla harum eius, omnis ratione quasi animi id voluptate eligendi minima velit earum rem in accusamus!",
+                                "Le but de ce projet était de pouvoir m'initié à faire des demandes au backend avec feth, sur le portfolio du photographe on peut rajouter ou retirer une photo, choisir les photos par catégories",
                                 lienDuProjet:"https://github.com/wufo121/Projet-6-Portfolio-architecte",
                                 })
                             }
@@ -200,7 +200,7 @@ function Home () {
                                 RealisationImage2: débugguer1,
                                 nomRealisation: "Débugguer",
                                 longueDescriptionRealisation:
-                                "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero enim inventore possim porro necessitatibus nulla harum eius, omnis ratione quasi animi id voluptate eligendi minima velit earum rem in accusamus!",
+                                "Le but de ce projet était de pouvoir relire du code deja écrit et de pouvoir corriger les lignes de codes qui n'allait pas et de corriger les erreurs consoles, j'ai pu aussi réaliser des tests fonctionnels et unitaires",
                                 lienDuProjet:"https://github.com/wufo121/Projet-10",
                                 })
                             }
@@ -214,7 +214,7 @@ function Home () {
                                 RealisationImage2: OhmyFood2,
                                 nomRealisation: "Oh My Food",
                                 longueDescriptionRealisation:
-                                "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero enim inventore possim porro necessitatibus nulla harum eius, omnis ratione quasi animi id voluptate eligendi minima velit earum rem in accusamus!",
+                                "Ce projet avait pour but de crer des animations css celon une maquette et la demande du client, faire une page de chargement avant que le site ne s'affiche et d'apprendre à utiliser sass.",
                                 lienDuProjet:"https://github.com/wufo121/Projet_4_ohmyfood",
                                 })
                             }
