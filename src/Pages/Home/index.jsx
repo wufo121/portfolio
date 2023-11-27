@@ -149,29 +149,29 @@ function Home () {
                         />
                         <CardRealisation
                         RealisationImage={kasa2}
-                        nomRealisation="Argent Bank"
-                        courteDescriptionRealisation="Gérer les States avec React-Redux"
+                        nomRealisation="Kasa"
+                        courteDescriptionRealisation="Utilisation de React"
                         onClick={() =>
                             openModal({
                                 RealisationImage2: kasa1,
                                 nomRealisation: "Kasa",
                                 longueDescriptionRealisation:
                                 "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero enim inventore possim porro necessitatibus nulla harum eius, omnis ratione quasi animi id voluptate eligendi minima velit earum rem in accusamus!",
-                                lienDuProjet:"https://github.com/wufo121/Projet-11",
+                                lienDuProjet:"https://github.com/wufo121/projet8-kasa",
                                 })
                             }
                         />
                         <CardRealisation
                         RealisationImage={optimisation1}
                         nomRealisation="Optimisation"
-                        courteDescriptionRealisation="Gérer les States avec React-Redux"
+                        courteDescriptionRealisation="code et reférencement"
                         onClick={() =>
                             openModal({
                                 RealisationImage2: optimisation2,
-                                nomRealisation: "Argent Bank",
+                                nomRealisation: "Optimisation",
                                 longueDescriptionRealisation:
                                 "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero enim inventore possim porro necessitatibus nulla harum eius, omnis ratione quasi animi id voluptate eligendi minima velit earum rem in accusamus!",
-                                lienDuProjet:"https://github.com/wufo121/Projet-11",
+                                lienDuProjet:"https://github.com/wufo121/projet9-optimisation",
                                 })
                             }
                         />
@@ -179,43 +179,43 @@ function Home () {
                     <div className='row'>
                     <CardRealisation
                         RealisationImage={portfolioArchi1}
-                        nomRealisation="Portfolio"
-                        courteDescriptionRealisation="Gérer les States avec React-Redux"
+                        nomRealisation="Portfolio photographe"
+                        courteDescriptionRealisation="Utilisation de Fetch"
                         onClick={() =>
                             openModal({
                                 RealisationImage2: portfolioArchi2,
-                                nomRealisation: "Argent Bank",
+                                nomRealisation: "Portfolio photographe",
                                 longueDescriptionRealisation:
                                 "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero enim inventore possim porro necessitatibus nulla harum eius, omnis ratione quasi animi id voluptate eligendi minima velit earum rem in accusamus!",
-                                lienDuProjet:"https://github.com/wufo121/Projet-11",
+                                lienDuProjet:"https://github.com/wufo121/Projet-6-Portfolio-architecte",
                                 })
                             }
                         />
                         <CardRealisation
                         RealisationImage={débugguer2}
                         nomRealisation="Débugguer"
-                        courteDescriptionRealisation="Gérer les States avec React-Redux"
+                        courteDescriptionRealisation="Débugguer un site deja codé"
                         onClick={() =>
                             openModal({
                                 RealisationImage2: débugguer1,
-                                nomRealisation: "Argent Bank",
+                                nomRealisation: "Débugguer",
                                 longueDescriptionRealisation:
                                 "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero enim inventore possim porro necessitatibus nulla harum eius, omnis ratione quasi animi id voluptate eligendi minima velit earum rem in accusamus!",
-                                lienDuProjet:"https://github.com/wufo121/Projet-11",
+                                lienDuProjet:"https://github.com/wufo121/Projet-10",
                                 })
                             }
                         />
                         <CardRealisation
                         RealisationImage={OhmyFood1}
                         nomRealisation="Oh My Food"
-                        courteDescriptionRealisation="Gérer les States avec React-Redux"
+                        courteDescriptionRealisation="Création d'animation Css"
                         onClick={() =>
                             openModal({
                                 RealisationImage2: OhmyFood2,
-                                nomRealisation: "Argent Bank",
+                                nomRealisation: "Oh My Food",
                                 longueDescriptionRealisation:
                                 "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero enim inventore possim porro necessitatibus nulla harum eius, omnis ratione quasi animi id voluptate eligendi minima velit earum rem in accusamus!",
-                                lienDuProjet:"https://github.com/wufo121/Projet-11",
+                                lienDuProjet:"https://github.com/wufo121/Projet_4_ohmyfood",
                                 })
                             }
                         />
