@@ -245,12 +245,12 @@ function Home () {
                         <CompétenceComposents
                         logoLogiciel={ReactLogo}
                         nameLogiciel="React"
-                        pourcentageMaitrise={80}
+                        pourcentageMaitrise={85}
                         />
                         <CompétenceComposents
                         logoLogiciel={javascriptLogo}
                         nameLogiciel="Javascript"
-                        pourcentageMaitrise={70}
+                        pourcentageMaitrise={80}
                         />
                         <CompétenceComposents
                         logoLogiciel={swaggerLogo}
