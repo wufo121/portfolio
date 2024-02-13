@@ -15,56 +15,53 @@ function Header() {
 
 
     return (
-        
-        <div className="Header">
-            <div className="partLeftNavigation">
+        <header>
+            <div className="Header">
                 <a href ="#BannièreHome" className='LinkHome'>
                     <img
-                     src={HomePicture}
-                     alt="Retour page Home"
-                     className='HomePicture'
-                     />
+                        src={HomePicture}
+                        alt="Retour page Home"
+                        className='HomePicture'
+                        />
                 </a>
-            </div>
-            <div className="PartRightNavigation">
-            <FontAwesomeIcon
+                <FontAwesomeIcon
                         icon={faBars}
                         className='faBars'
                         onClick={toggleMobileMenu}
                     />
-                <nav className={isMobileMenuVisible ? 'visible' : ''}>
-                    <ul>
-                        <li>
-                            <a href="#Présentation">Présentation</a>
-                        </li>
-                        <li>
-                            <a href="#Activité">Activité</a>
-                        </li>
-                        <li>
-                            <a href="#Réalisation">Réalisation</a>
-                        </li>
-                        <li>
-                            <a href="#Compétence">Compétence</a>
-                        </li>
-                        <li>
-                            <a href="#Formations">Formations</a>
-                        </li>
-                        <li>
-                            <a href="#Contact">Contact</a>
-                        </li>
-                        <li>
-                            <Link to="https://github.com/wufo121"target="_blank" rel="noopener noreferrer">
-                                <img 
-                                src={githubLogo}
-                                alt="Github Logo"
-                                className='githubLogo'
-                                />
-                            </Link>
-                        </li>
-                    </ul>
-                </nav>
-            </div>
-        </div>
+                </div>
+            <nav className={isMobileMenuVisible ? 'visible' : ''}>
+                <ul className='navUl'>
+                    <li>
+                        <a href="#Présentation">Présentation</a>
+                    </li>
+                    <li>
+                        <a href="#Activité">Activité</a>
+                    </li>
+                    <li>
+                        <a href="#Réalisation">Réalisation</a>
+                    </li>
+                    <li>
+                        <a href="#Compétence">Compétence</a>
+                    </li>
+                    <li>
+                        <a href="#Formations">Formations</a>
+                    </li>
+                    <li>
+                        <a href="#Contact">Contact</a>
+                    </li>
+                    <li>
+                        <Link to="https://github.com/wufo121"target="_blank" rel="noopener noreferrer">
+                            <img 
+                            src={githubLogo}
+                            alt="Github Logo"
+                            className='githubLogo'
+                            />
+                        </Link>
+                    </li>
+                </ul>
+            </nav>
+        </header>
     )
 }
 export default Header
