@@ -57,7 +57,7 @@ function Home () {
      };
 
      const linkToLinkedin = () => {
-        window.open('linkedin.com/in/antoine-leger-dev', '_blank');
+        window.open('https://www.linkedin.com/in/antoine-leger-dev/', '_blank');
      };
 
 
