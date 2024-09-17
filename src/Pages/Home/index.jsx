@@ -92,6 +92,19 @@ function Home () {
             </section>
             <section id="Activité">
                 <h2>Activités</h2>
+            {/* <h2>Activités</h2>
+                <div className="CardActivitySection">
+                    <div className='row'>
+                        {activities.map((activity, index) => (
+                            <CardActivity
+                                key={index}
+                                iconCardActivity={activity.icon}
+                                titleCardActivity={activity.title}
+                                paragraphCardActivity={activity.paragraph}
+                            />
+                        ))}
+                </div>
+            </div> */}
                 <div className='CardActivitySection'>
                     <div className='row'>
                         <CardActivity
